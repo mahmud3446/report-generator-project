@@ -1,0 +1,44 @@
+              Vfa-113 Squadron Activity Report              
+============================================================
+
+PERSONNEL ROSTER
+------------------------------------------------------------
+Total Pilots: 3
+
+Lt Jessica Taylor "Storm" - 6 years experience
+Maj Thomas Brown "Falcon" - 14 years experience
+Capt Amanda Davis "Sky" - 11 years experience
+
+
+AIRCRAFT INVENTORY
+------------------------------------------------------------
+Total Aircraft: 3
+Active: 2
+Maintenance: 1
+
+AJ-100 | F/A-18E Super Hornet | Status: Active
+AJ-101 | F/A-18E Super Hornet | Status: Active
+AJ-102 | F/A-18F Super Hornet | Status: Maintenance
+
+
+FLIGHT OPERATIONS
+------------------------------------------------------------
+Total Flight Hours: 952.80
+Total Missions Flown: 298
+Average Mission Duration: 3.20 hours
+
+
+MISSION BREAKDOWN
+------------------------------------------------------------
+Combat: 63 missions
+Patrol: 60 missions
+Reconnaissance: 55 missions
+Training: 65 missions
+Transport: 55 missions
+
+
+CURRENT OPERATIONAL STATUS
+------------------------------------------------------------
+STATUS: PARTIALLY OPERATIONAL
+Aircraft Active: 2
+Aircraft in Maintenance: 1

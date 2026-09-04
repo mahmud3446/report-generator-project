@@ -1,0 +1,44 @@
+              Vfa-25 Squadron Activity Report               
+============================================================
+
+PERSONNEL ROSTER
+------------------------------------------------------------
+Total Pilots: 3
+
+Lt Natasha Garcia "Viper" - 5 years experience
+Capt Robert Johnson "Hawk" - 10 years experience
+Lt Michael Chen "Dragon" - 3 years experience
+
+
+AIRCRAFT INVENTORY
+------------------------------------------------------------
+Total Aircraft: 3
+Active: 2
+Maintenance: 1
+
+NK-300 | F/A-18E Super Hornet | Status: Active
+NK-301 | F/A-18E Super Hornet | Status: Maintenance
+NK-302 | F/A-18F Super Hornet | Status: Active
+
+
+FLIGHT OPERATIONS
+------------------------------------------------------------
+Total Flight Hours: 895.00
+Total Missions Flown: 283
+Average Mission Duration: 3.16 hours
+
+
+MISSION BREAKDOWN
+------------------------------------------------------------
+Combat: 53 missions
+Patrol: 46 missions
+Reconnaissance: 65 missions
+Training: 61 missions
+Transport: 58 missions
+
+
+CURRENT OPERATIONAL STATUS
+------------------------------------------------------------
+STATUS: PARTIALLY OPERATIONAL
+Aircraft Active: 2
+Aircraft in Maintenance: 1

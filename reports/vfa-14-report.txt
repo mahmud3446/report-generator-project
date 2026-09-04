@@ -1,0 +1,44 @@
+              Vfa-14 Squadron Activity Report               
+============================================================
+
+PERSONNEL ROSTER
+------------------------------------------------------------
+Total Pilots: 3
+
+Lt James Wilson "Ace" - 5 years experience
+Lt Jennifer Moore "Blaze" - 3 years experience
+Capt William Jackson "Jet" - 8 years experience
+
+
+AIRCRAFT INVENTORY
+------------------------------------------------------------
+Total Aircraft: 3
+Active: 3
+Maintenance: 0
+
+NH-500 | F/A-18E Super Hornet | Status: Active
+NH-501 | F/A-18E Super Hornet | Status: Active
+NH-502 | F/A-18F Super Hornet | Status: Active
+
+
+FLIGHT OPERATIONS
+------------------------------------------------------------
+Total Flight Hours: 1091.50
+Total Missions Flown: 335
+Average Mission Duration: 3.26 hours
+
+
+MISSION BREAKDOWN
+------------------------------------------------------------
+Combat: 76 missions
+Patrol: 69 missions
+Reconnaissance: 71 missions
+Training: 60 missions
+Transport: 59 missions
+
+
+CURRENT OPERATIONAL STATUS
+------------------------------------------------------------
+STATUS: FULLY OPERATIONAL
+Aircraft Active: 3
+Aircraft in Maintenance: 0

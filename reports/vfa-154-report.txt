@@ -1,0 +1,44 @@
+              Vfa-154 Squadron Activity Report              
+============================================================
+
+PERSONNEL ROSTER
+------------------------------------------------------------
+Total Pilots: 3
+
+Maj Emily Williams "Eagle" - 15 years experience
+Capt David Anderson "Bolt" - 9 years experience
+Lt Carlos Martinez "Thunder" - 4 years experience
+
+
+AIRCRAFT INVENTORY
+------------------------------------------------------------
+Total Aircraft: 3
+Active: 3
+Maintenance: 0
+
+NF-200 | F/A-18E Super Hornet | Status: Active
+NF-201 | F/A-18E Super Hornet | Status: Active
+NF-202 | F/A-18F Super Hornet | Status: Active
+
+
+FLIGHT OPERATIONS
+------------------------------------------------------------
+Total Flight Hours: 969.70
+Total Missions Flown: 305
+Average Mission Duration: 3.18 hours
+
+
+MISSION BREAKDOWN
+------------------------------------------------------------
+Combat: 56 missions
+Patrol: 52 missions
+Reconnaissance: 63 missions
+Training: 66 missions
+Transport: 68 missions
+
+
+CURRENT OPERATIONAL STATUS
+------------------------------------------------------------
+STATUS: FULLY OPERATIONAL
+Aircraft Active: 3
+Aircraft in Maintenance: 0

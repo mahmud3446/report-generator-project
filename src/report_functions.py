@@ -10,20 +10,25 @@ import csv
 
 
 def read_csv_file(filepath):
+    csv_dict = []
     """
     Reads a CSV file and returns the data as a list of dictionaries.
     """
     # TODO: Your code here
     # Hint: Use csv.DictReader to read CSV files into dictionaries
     # Hint: Remember to use 'with open()' for proper file handling
-    pass
+    with open(filepath, mode ='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            csv_dict.append(row)
+    return csv_dict
 
 
 def count_records(data_list):
     """Counts the number of records in a dataset."""
     # TODO: Your code here
     # Hint: Use the len() function
-    pass
+    return len(data_list)
 
 
 def get_unique_values(data_list, field_name):
@@ -31,7 +36,10 @@ def get_unique_values(data_list, field_name):
     # TODO: Your code here
     # Hint: Use a set to collect unique values
     # Hint: Convert the set to a list and sort it before returning
-    pass
+    unique_list = set()
+    for row in data_list:
+        unique_list.add(row[field_name])
+    return sorted(unique_list)
 
 
 def filter_by_field(data_list, field_name, field_value):
@@ -39,7 +47,7 @@ def filter_by_field(data_list, field_name, field_value):
     # TODO: Your code here
     # Hint: Use a list comprehension to filter or a loop!
     # see here for more info: https://docs.python.org/3.13/tutorial/datastructures.html#list-comprehensions
-    pass
+    return [data for data in data_list if data[field_name] == field_value]
 
 
 def calculate_total(data_list, field_name):
@@ -48,7 +56,10 @@ def calculate_total(data_list, field_name):
     # Hint: Initialize a total variable to 0
     # Hint: Loop through each record and add float(record[field_name]) to total
     # Hint: Remember to convert string values to float!
-    pass
+    total = 0
+    for data in data_list:
+        total += float(data[field_name])
+    return total
 
 
 def calculate_average(data_list, field_name):
@@ -56,7 +67,7 @@ def calculate_average(data_list, field_name):
     # TODO: Your code here
     # Hint: Use calculate_total() and count_records() functions
     # Hint: Average = total / count
-    pass
+    return calculate_total(data_list, field_name) / count_records(data_list)
 
 
 def find_record_by_id(data_list, id_field, id_value):
@@ -64,7 +75,10 @@ def find_record_by_id(data_list, id_field, id_value):
     # TODO: Your code here
     # Hint: Loop through data_list
     # Hint: Return the record when record[id_field] == id_value
-    pass
+    for record in data_list:
+        if record[id_field] == id_value:
+            return record
+    return None
 
 
 def join_data(primary_list, secondary_list, primary_key, foreign_key):
@@ -76,14 +90,25 @@ def join_data(primary_list, secondary_list, primary_key, foreign_key):
     # Hint: Create a dictionary mapping secondary_list IDs to records
     # Hint: For each record in primary_list, look up the matching secondary record
     # Hint: Use dict.update() to merge dictionaries
-    pass
+    secondary_dict = {}
+    for record in secondary_list:
+        secondary_dict[record[primary_key]] = record
+    joined_data = []
+    for record in primary_list:
+        matching_record = secondary_dict.get(record[foreign_key])
+        if matching_record:
+            joined_record = record.copy()
+            joined_record.update(matching_record)
+            joined_data.append(joined_record)
+    return joined_data
 
 
 def write_report_to_file(filepath, content):
     """Writes a text report to a file."""
     # TODO: Your code here
     # Hint: Use 'with open(filepath, 'w')' to open file for writing
-    pass
+    with open(filepath, 'w') as file:
+        file.write(content)
 
 
 def format_header(title):
@@ -91,14 +116,14 @@ def format_header(title):
     # TODO: Your code here
     # Hint: Use "=" * 60 to create a line of equals signs
     # Hint: Use .center(60) to center the title
-    pass
+    return title.title().center(60) + "\n" + "=" * 60
 
 
 # Testing functions
 if __name__ == '__main__':
     print("Testing report functions...")
     print("Implement functions above, then uncomment test code below")
-    
+
     # # Test read_csv_file
     # pilots = read_csv_file('../data/pilots.csv')
     # print(f"Loaded {len(pilots)} pilots")
